@@ -1,0 +1,53 @@
+body {
+    padding: 3px;
+    padding-top: 6px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+td {
+    min-width: fit-content;
+}
+
+tr:nth-child(even) {
+    background-color: wheat;
+}
+
+tr:nth-child(odd) {
+    background-color: tan;
+}
+
+tr:hover {
+    background-color: salmon;
+}
+
+input {
+    width: 150px;
+    padding-block: 2px;
+    display: block;
+    background: #333;
+    color: white;
+}
+
+input[type="password"] {
+    background: #555;
+    color: white;
+}
+
+input[type="submit"] {
+    width: 100px;
+    background: #333;
+    color: white;
+}
+
+fieldset {
+    min-width: 300px;
+    width: 30%;
+}
