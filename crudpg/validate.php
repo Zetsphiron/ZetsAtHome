@@ -27,10 +27,6 @@ if ($conn) {
 
 $result = pg_query($conn, $query) or die("Something went wrong: " . pg_last_error());
 
-if (pg_num_rows($result) == 0){
-    echo "Query error.";
-}
-
 // print_r($result);
 if (pg_num_rows($result) > 0) {
 
